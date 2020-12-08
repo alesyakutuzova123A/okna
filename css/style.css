@@ -2086,10 +2086,6 @@ footer p {
         display: none;
     }
 
-    .nav__phone>h4:nth-child(1) {
-        width: 140px;
-    }
-
     .nav__address {
         display: none;
     }
@@ -2172,12 +2168,28 @@ footer p {
         width: 100%;
     }
 
-    .stock__title {
-        width: 80%;
+    .header__advantages {
+        margin-left: 0;
     }
 
-    .header__advantages-left>img:nth-child(1) {
-        width: 20px;
+    .header__advantages-left {
+        margin-left: 10px;
+    }
+
+    .header__advantages-right {
+        margin-left: 30px;
+    }
+
+    .nav__phone>h4:nth-child(1) {
+        width: 150px;
+    }
+
+    .stock__title {
+        width: 60%;
+    }
+
+    .nav__phone {
+        margin-left: 0;
     }
 
     .header__advantages,
@@ -2317,7 +2329,15 @@ footer p {
 
     .about__item-left,
     .about__item-right {
-        padding-right: 140px;
+        padding: 25px 30px 20px 30px;
+    }
+
+    .about__item-right {
+        width: 50%;
+    }
+
+    .about__item-left {
+        width: 50%;
     }
 
     h3 {
@@ -2340,14 +2360,7 @@ footer p {
         width: 100%;
     }
 
-    .about__item-left {
-        width: 100%;
-    }
 
-    .about__item-left,
-    .about__item-right {
-        padding: 25px 50px 20px 30px;
-    }
 
     .about__text p {
         margin-bottom: 0px;
